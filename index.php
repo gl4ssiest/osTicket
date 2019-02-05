@@ -21,8 +21,8 @@ $section = 'home';
 require(CLIENTINC_DIR.'header.inc.php');
 ?>
 <div id="landing_page">
-<?php include CLIENTINC_DIR.'templates/sidebar.tmpl.php'; ?>
-<div class="main-content">
+
+<div class="main-content-full">
 <?php
 if ($cfg && $cfg->isKnowledgebaseEnabled()) { ?>
 <div class="search-form">
@@ -35,10 +35,18 @@ if ($cfg && $cfg->isKnowledgebaseEnabled()) { ?>
     <div class="thread-body">
 <?php
 }
-    if($cfg && ($page = $cfg->getLandingPage()))
+    
+    if($cfg && ($page = $cfg->getLandingPage())){
+
         echo $page->getBodyWithImages();
+    }
     else
         echo  '<h1>'.__('Welcome to the Support Center').'</h1>';
+    
+    echo '<div style="padding: 20px;">';
+    include CLIENTINC_DIR.'templates/sidebar.tmpl.php';
+    echo '</div>';
+    
     ?>
     </div>
 </div>
