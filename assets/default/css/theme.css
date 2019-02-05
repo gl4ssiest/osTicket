@@ -411,8 +411,8 @@ body {
   outline: none;
   text-indent: -9999px;
   margin: 0 auto;
-  background: url('../images/poweredby.png') top left no-repeat;
-  background-size: auto 20px;
+  /*background: url('../images/poweredby.png') top left no-repeat;
+  background-size: auto 20px;*/
 }
 .front-page-button {
 }

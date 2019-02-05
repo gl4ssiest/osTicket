@@ -259,7 +259,7 @@ button[type=submit]:hover, input[type=submit]:hover, input[type=submit]:active {
 input.submit:hover, input.submit:active {
     background-position:bottom left;
 }
-
+/*
 #poweredBy {
     font-size:0.8em;
     color:#ccc;
@@ -288,7 +288,7 @@ input.submit:hover, input.submit:active {
     ms-filter: progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#444');
     filter: progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#444');
 }
-
+*/
 #company {
     position:absolute;
     left: 50%;

@@ -2,7 +2,7 @@
     </div>
     <div id="footer">
         <p><?php echo __('Copyright &copy;'); ?> <?php echo date('Y'); ?> <?php echo (string) $ost->company ?: 'osTicket.com'; ?> - <?php echo __('All rights reserved.'); ?></p>
-        <a id="poweredBy" href="http://osticket.com" target="_blank"><?php echo __('Helpdesk software - powered by osTicket'); ?></a>
+        <!--a id="poweredBy" href="http://osticket.com" target="_blank"><?php echo __('Helpdesk software - powered by osTicket'); ?></a-->
     </div>
 <div id="overlay"></div>
 <div id="loading">
