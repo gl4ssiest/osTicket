@@ -15,6 +15,8 @@
 **********************************************************************/
 require('client.inc.php');
 
+//phpinfo();
+
 require_once INCLUDE_DIR . 'class.page.php';
 
 $section = 'home';
