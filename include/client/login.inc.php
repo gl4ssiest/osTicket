@@ -15,6 +15,13 @@ if ($content) {
 }
 
 ?>
+
+<?php 
+
+$title = 'Ingreso Posada Gonima Propiedades | Soporte';
+$body = 'Diligencie los datos correspondientes para acceder a sus solicitudes.'
+
+?>
 <h1><?php echo Format::display($title); ?></h1>
 <p><?php echo Format::display($body); ?></p>
 <form action="login.php" method="post" id="clientLogin">
@@ -30,9 +37,13 @@ if ($content) {
     </div>
     <p>
         <input class="btn" type="submit" value="<?php echo __('Sign In'); ?>">
-<?php if ($suggest_pwreset) { ?>
-        <a style="padding-top:4px;display:inline-block;" href="pwreset.php"><?php echo __('Forgot My Password'); ?></a>
-<?php } ?>
+<?php 
+//if ($suggest_pwreset) { 
+    ?>
+        <a style="padding-top:10px;display:inline-block;" href="pwreset.php"><?php echo __('Forgot My Password'); ?></a>
+<?php 
+//} 
+?>
     </p>
     </div>
     <div style="display:table-cell;padding: 15px;vertical-align:top">

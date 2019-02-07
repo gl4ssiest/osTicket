@@ -13,8 +13,13 @@ $BUTTONS = isset($BUTTONS) ? $BUTTONS : true;
 <!--/p-->
 <?php } ?>
 <!--p-->
+            <!--a href="view.php" style="" class="green button inline-block"><?php
+                echo __('Check Ticket Status');?></a-->
+            
             <a href="view.php" style="" class="green button inline-block"><?php
                 echo __('Check Ticket Status');?></a>
+            
+            
 <!--/p-->
         </div>
 <?php } ?>
