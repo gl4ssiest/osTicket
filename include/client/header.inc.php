@@ -30,7 +30,8 @@ if ($lang) {
     <meta name="description" content="customer support platform">
     <meta name="keywords" content="osTicket, Customer support system, support ticket system">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="<?php echo ROOT_PATH; ?>css/osticket.css?035fd0a" media="screen"/>
+	<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>css/osticket.css?035fd0a" media="screen"/>
     <link rel="stylesheet" href="<?php echo ASSETS_PATH; ?>css/theme.css?035fd0a" media="screen"/>
     <link rel="stylesheet" href="<?php echo ASSETS_PATH; ?>css/print.css?035fd0a" media="print"/>
     <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>scp/css/typeahead.css?035fd0a"

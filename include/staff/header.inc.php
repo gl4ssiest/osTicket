@@ -29,6 +29,7 @@ if ($lang) {
     </style>
     <![endif]-->
     <script type="text/javascript" src="<?php echo ROOT_PATH; ?>js/jquery-1.11.2.min.js?035fd0a"></script>
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="<?php echo ROOT_PATH ?>css/thread.css?035fd0a" media="all"/>
     <link rel="stylesheet" href="<?php echo ROOT_PATH ?>scp/css/scp.css?035fd0a" media="all"/>
     <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>css/redactor.css?035fd0a" media="screen"/>

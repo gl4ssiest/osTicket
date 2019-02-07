@@ -14,7 +14,7 @@ body,
 input,
 select,
 textarea {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: 'Roboto Condensed', 'Helvetica Neue', sans-serif;
   color: #000;
 }
 b,
@@ -111,18 +111,18 @@ fieldset {
 }
 /* Typography */
 a, .link {
-  color: #0072bc;
+  color: #e85011;
   text-decoration: none;
   display: inline-block;
   margin-bottom: 1px;
 }
 a:hover, .link:hover {
-    border-bottom: 1px dotted #0072bc;
+    border-bottom: 1px dotted #e85011;
     margin-bottom: 0;
     cursor: pointer;
 }
 h1 {
-  color: #00AEEF;
+  color: #e85011;
   font-weight: normal;
   font-size: 20px;
 }
@@ -242,8 +242,8 @@ h2, .subject {
   background: #222;
   border: none;
   display: inline-block;
-  font-size: 16px;
-  padding: 4px 16px 4px 16px;
+  font-size: 20px;
+  padding: 15px 20px;
   max-width: 220px;
   text-align: center;
   color: #fff;
@@ -281,7 +281,7 @@ h2, .subject {
 }
 .blue.button,
 .blue.button:visited {
-  background-color: #00AEEF;
+  background-color: #E85011;
 }
 .blue.button:hover {
   background-color: #0299d2;
@@ -391,7 +391,7 @@ body {
   margin: 0 20px;
   height: auto !important;
   height: 350px;
-  min-height: 350px;
+  min-height: 150px;
 }
 #footer {
   text-align: center;
@@ -411,8 +411,8 @@ body {
   outline: none;
   text-indent: -9999px;
   margin: 0 auto;
-  background: url('../images/poweredby.png') top left no-repeat;
-  background-size: auto 20px;
+  /*background: url('../images/poweredby.png') top left no-repeat;
+  background-size: auto 20px;*/
 }
 .front-page-button {
 }
@@ -607,6 +607,7 @@ label.required, span.required {
   border: 1px solid #aaa;
   background: #fff;
   display: block;
+  height: 25px;
 }
 #ticketForm div input[type=file],
 #clientLogin div input[type=file] {
@@ -1282,3 +1283,15 @@ img.avatar {
     margin-bottom: 0.3em;
     font-size: 1.1em;
 }
+
+.inline-block{
+  display: inline-block;
+}
+
+.main-content-full {
+  width: 100%;
+}
+
+.flush-center {
+  text-align: center;
+} 

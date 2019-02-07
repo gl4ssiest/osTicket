@@ -1,21 +1,21 @@
 <?php
 $BUTTONS = isset($BUTTONS) ? $BUTTONS : true;
 ?>
-    <div class="sidebar pull-right">
+    <div class="">
 <?php if ($BUTTONS) { ?>
-        <div class="front-page-button flush-right">
-<p>
+        <div class="front-page-button flush-center">
+<!--p-->
 <?php
     if ($cfg->getClientRegistrationMode() != 'disabled'
         || !$cfg->isClientLoginRequired()) { ?>
-            <a href="open.php" style="display:block" class="blue button"><?php
+            <a href="open.php" style="" class="blue button inline-block"><?php
                 echo __('Open a New Ticket');?></a>
-</p>
+<!--/p-->
 <?php } ?>
-<p>
-            <a href="view.php" style="display:block" class="green button"><?php
+<!--p-->
+            <a href="view.php" style="" class="green button inline-block"><?php
                 echo __('Check Ticket Status');?></a>
-</p>
+<!--/p-->
         </div>
 <?php } ?>
         <div class="content"><?php
