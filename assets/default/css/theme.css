@@ -64,7 +64,7 @@ textarea {
   *vertical-align: middle;
 }
 input {
-  line-height: normal;
+  line-height: 25px;
   *overflow: visible;
 }
 table input {
@@ -123,8 +123,8 @@ a:hover, .link:hover {
 }
 h1 {
   color: #e85011;
-  font-weight: normal;
-  font-size: 20px;
+  /*font-weight: normal;*/
+  font-size: 35px;
 }
 h3 {
   font-size: 16px;
@@ -258,7 +258,7 @@ h2, .subject {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   position: relative;
   cursor: pointer;
-  font-family: helvetica, arial, sans-serif;
+  /*font-family: helvetica, arial, sans-serif;*/
 }
 .button:hover {
   background-color: #111;
